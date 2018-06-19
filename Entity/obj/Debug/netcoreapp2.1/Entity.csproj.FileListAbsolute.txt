@@ -1,0 +1,8 @@
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Entity\bin\Debug\netcoreapp2.1\Entity.deps.json
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Entity\bin\Debug\netcoreapp2.1\Entity.dll
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Entity\bin\Debug\netcoreapp2.1\Entity.pdb
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Entity\obj\Debug\netcoreapp2.1\Entity.csproj.CoreCompileInputs.cache
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Entity\obj\Debug\netcoreapp2.1\Entity.AssemblyInfoInputs.cache
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Entity\obj\Debug\netcoreapp2.1\Entity.AssemblyInfo.cs
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Entity\obj\Debug\netcoreapp2.1\Entity.dll
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Entity\obj\Debug\netcoreapp2.1\Entity.pdb

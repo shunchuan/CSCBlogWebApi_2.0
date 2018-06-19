@@ -1,0 +1,12 @@
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Infrastructure\bin\Debug\netcoreapp2.0\Infrastructure.deps.json
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Infrastructure\bin\Debug\netcoreapp2.0\Infrastructure.dll
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Infrastructure\bin\Debug\netcoreapp2.0\Infrastructure.pdb
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Infrastructure\bin\Debug\netcoreapp2.0\Enum.dll
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Infrastructure\bin\Debug\netcoreapp2.0\Enum.pdb
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Infrastructure\obj\Debug\netcoreapp2.0\Infrastructure.csprojAssemblyReference.cache
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Infrastructure\obj\Debug\netcoreapp2.0\Infrastructure.csproj.CoreCompileInputs.cache
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Infrastructure\obj\Debug\netcoreapp2.0\Infrastructure.AssemblyInfoInputs.cache
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Infrastructure\obj\Debug\netcoreapp2.0\Infrastructure.AssemblyInfo.cs
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Infrastructure\obj\Debug\netcoreapp2.0\Infrastructure.csproj.CopyComplete
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Infrastructure\obj\Debug\netcoreapp2.0\Infrastructure.dll
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Infrastructure\obj\Debug\netcoreapp2.0\Infrastructure.pdb

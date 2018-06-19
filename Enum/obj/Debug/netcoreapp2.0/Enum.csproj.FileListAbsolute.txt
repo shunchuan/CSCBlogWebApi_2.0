@@ -1,0 +1,9 @@
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Enum\bin\Debug\netcoreapp2.0\Enum.deps.json
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Enum\bin\Debug\netcoreapp2.0\Enum.dll
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Enum\bin\Debug\netcoreapp2.0\Enum.pdb
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Enum\obj\Debug\netcoreapp2.0\Enum.csproj.CoreCompileInputs.cache
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Enum\obj\Debug\netcoreapp2.0\Enum.AssemblyInfoInputs.cache
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Enum\obj\Debug\netcoreapp2.0\Enum.AssemblyInfo.cs
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Enum\obj\Debug\netcoreapp2.0\Enum.dll
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Enum\obj\Debug\netcoreapp2.0\Enum.pdb
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\Enum\obj\Debug\netcoreapp2.0\Enum.csprojAssemblyReference.cache

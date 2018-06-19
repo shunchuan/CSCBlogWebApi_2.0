@@ -1,0 +1,12 @@
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\DAL\obj\Debug\netcoreapp2.1\DAL.csproj.CoreCompileInputs.cache
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfoInputs.cache
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfo.cs
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\DAL\bin\Debug\netcoreapp2.1\DAL.deps.json
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\DAL\bin\Debug\netcoreapp2.1\DAL.dll
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\DAL\obj\Debug\netcoreapp2.1\DAL.csprojAssemblyReference.cache
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\DAL\bin\Debug\netcoreapp2.1\DAL.pdb
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\DAL\bin\Debug\netcoreapp2.1\Entity.dll
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\DAL\bin\Debug\netcoreapp2.1\Entity.pdb
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\DAL\obj\Debug\netcoreapp2.1\DAL.csproj.CopyComplete
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\DAL\obj\Debug\netcoreapp2.1\DAL.dll
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\DAL\obj\Debug\netcoreapp2.1\DAL.pdb
