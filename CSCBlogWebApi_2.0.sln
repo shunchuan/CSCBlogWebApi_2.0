@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSCBlogWebApi_2_0", "CSCBlo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSCBlogWebApi_2_0.Domain", "CSCBlogWebApi_2_0.Domain\CSCBlogWebApi_2_0.Domain.csproj", "{C1258C57-49D0-4508-9932-796E612906D8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSCBlogWebApi_2_0.Repository", "CSCBlogWebApi_2_0.Repository\CSCBlogWebApi_2_0.Repository.csproj", "{7864ADF1-4388-415E-8BEC-9D59B714005F}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSCBlogWebApi_2_0.Infrastructure", "CSCBlogWebApi_2_0.Infrastructure\CSCBlogWebApi_2_0.Infrastructure.csproj", "{7A612467-C318-405E-ABF3-13FB89931134}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSCBlogWebApi_2_0.Test", "CSCBlogWebApi_2_0.Test\CSCBlogWebApi_2_0.Test.csproj", "{E4839D19-EA6E-4D61-828A-1F3F031AFE10}"
@@ -31,10 +29,6 @@ Global
 		{C1258C57-49D0-4508-9932-796E612906D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1258C57-49D0-4508-9932-796E612906D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1258C57-49D0-4508-9932-796E612906D8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7864ADF1-4388-415E-8BEC-9D59B714005F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7864ADF1-4388-415E-8BEC-9D59B714005F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7864ADF1-4388-415E-8BEC-9D59B714005F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7864ADF1-4388-415E-8BEC-9D59B714005F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7A612467-C318-405E-ABF3-13FB89931134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7A612467-C318-405E-ABF3-13FB89931134}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A612467-C318-405E-ABF3-13FB89931134}.Release|Any CPU.ActiveCfg = Release|Any CPU
