@@ -18,9 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DAL\DAL.csproj" />
-    <ProjectReference Include="..\Entity\Entity.csproj" />
-    <ProjectReference Include="..\Service\Service.csproj" />
+    <ProjectReference Include="..\CSCBlogWebApi_2_0.Business\CSCBlogWebApi_2_0.Business.csproj" />
   </ItemGroup>
 
 </Project>

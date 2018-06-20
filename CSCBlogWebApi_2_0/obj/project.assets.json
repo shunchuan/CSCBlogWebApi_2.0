@@ -5108,66 +5108,54 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
-      "DAL/1.0.0": {
+      "CSCBlogWebApi_2_0.Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
-          "Entity": "1.0.0",
-          "Infrastructure": "1.0.0",
+          "CSCBlogWebApi_2_0.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CSCBlogWebApi_2_0.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CSCBlogWebApi_2_0.Business.dll": {}
+        }
+      },
+      "CSCBlogWebApi_2_0.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "CSCBlogWebApi_2_0.Infrastructure": "1.0.0",
           "MySql.Data.EntityFrameworkCore": "8.0.11"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/CSCBlogWebApi_2_0.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/CSCBlogWebApi_2_0.Domain.dll": {}
         }
       },
-      "Entity/1.0.0": {
+      "CSCBlogWebApi_2_0.Enum/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "compile": {
-          "bin/placeholder/Entity.dll": {}
+          "bin/placeholder/CSCBlogWebApi_2_0.Enum.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Entity.dll": {}
+          "bin/placeholder/CSCBlogWebApi_2_0.Enum.dll": {}
         }
       },
-      "Enum/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Enum.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Enum.dll": {}
-        }
-      },
-      "Infrastructure/1.0.0": {
+      "CSCBlogWebApi_2_0.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
-          "Enum": "1.0.0"
+          "CSCBlogWebApi_2_0.Enum": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Infrastructure.dll": {}
+          "bin/placeholder/CSCBlogWebApi_2_0.Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Infrastructure.dll": {}
-        }
-      },
-      "Service/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "dependencies": {
-          "DAL": "1.0.0",
-          "Entity": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Service.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Service.dll": {}
+          "bin/placeholder/CSCBlogWebApi_2_0.Infrastructure.dll": {}
         }
       }
     }
@@ -13503,40 +13491,33 @@
         "windowsazure.storage.nuspec"
       ]
     },
-    "DAL/1.0.0": {
+    "CSCBlogWebApi_2_0.Business/1.0.0": {
       "type": "project",
-      "path": "../DAL/DAL.csproj",
-      "msbuildProject": "../DAL/DAL.csproj"
+      "path": "../CSCBlogWebApi_2_0.Business/CSCBlogWebApi_2_0.Business.csproj",
+      "msbuildProject": "../CSCBlogWebApi_2_0.Business/CSCBlogWebApi_2_0.Business.csproj"
     },
-    "Entity/1.0.0": {
+    "CSCBlogWebApi_2_0.Domain/1.0.0": {
       "type": "project",
-      "path": "../Entity/Entity.csproj",
-      "msbuildProject": "../Entity/Entity.csproj"
+      "path": "../CSCBlogWebApi_2_0.Domain/CSCBlogWebApi_2_0.Domain.csproj",
+      "msbuildProject": "../CSCBlogWebApi_2_0.Domain/CSCBlogWebApi_2_0.Domain.csproj"
     },
-    "Enum/1.0.0": {
+    "CSCBlogWebApi_2_0.Enum/1.0.0": {
       "type": "project",
-      "path": "../Enum/Enum.csproj",
-      "msbuildProject": "../Enum/Enum.csproj"
+      "path": "../CSCBlogWebApi_2_0.Enum/CSCBlogWebApi_2_0.Enum.csproj",
+      "msbuildProject": "../CSCBlogWebApi_2_0.Enum/CSCBlogWebApi_2_0.Enum.csproj"
     },
-    "Infrastructure/1.0.0": {
+    "CSCBlogWebApi_2_0.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../Infrastructure/Infrastructure.csproj",
-      "msbuildProject": "../Infrastructure/Infrastructure.csproj"
-    },
-    "Service/1.0.0": {
-      "type": "project",
-      "path": "../Service/Service.csproj",
-      "msbuildProject": "../Service/Service.csproj"
+      "path": "../CSCBlogWebApi_2_0.Infrastructure/CSCBlogWebApi_2_0.Infrastructure.csproj",
+      "msbuildProject": "../CSCBlogWebApi_2_0.Infrastructure/CSCBlogWebApi_2_0.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "DAL >= 1.0.0",
-      "Entity >= 1.0.0",
+      "CSCBlogWebApi_2_0.Business >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.8",
       "Microsoft.NETCore.App >= 2.0.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.3",
-      "Service >= 1.0.0"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.3"
     ]
   },
   "packageFolders": {
@@ -13569,14 +13550,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\ProgramLearning\\C#Program\\.NET Core\\CSCBlogWebApi_2.0\\DAL\\DAL.csproj": {
-              "projectPath": "E:\\ProgramLearning\\C#Program\\.NET Core\\CSCBlogWebApi_2.0\\DAL\\DAL.csproj"
-            },
-            "E:\\ProgramLearning\\C#Program\\.NET Core\\CSCBlogWebApi_2.0\\Entity\\Entity.csproj": {
-              "projectPath": "E:\\ProgramLearning\\C#Program\\.NET Core\\CSCBlogWebApi_2.0\\Entity\\Entity.csproj"
-            },
-            "E:\\ProgramLearning\\C#Program\\.NET Core\\CSCBlogWebApi_2.0\\Service\\Service.csproj": {
-              "projectPath": "E:\\ProgramLearning\\C#Program\\.NET Core\\CSCBlogWebApi_2.0\\Service\\Service.csproj"
+            "E:\\ProgramLearning\\C#Program\\.NET Core\\CSCBlogWebApi_2.0\\CSCBlogWebApi_2_0.Business\\CSCBlogWebApi_2_0.Business.csproj": {
+              "projectPath": "E:\\ProgramLearning\\C#Program\\.NET Core\\CSCBlogWebApi_2.0\\CSCBlogWebApi_2_0.Business\\CSCBlogWebApi_2_0.Business.csproj"
             }
           }
         }

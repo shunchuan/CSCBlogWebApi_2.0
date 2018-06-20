@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CSCBlogWebApi_2_0.Domain\CSCBlogWebApi_2_0.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

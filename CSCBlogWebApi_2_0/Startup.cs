@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using DAL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -26,9 +25,9 @@ namespace CSCBlogWebApi_2_0
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContextPool<MySqlDbContext>(options => options.UseMySQL(Configuration.GetConnectionString("MySqlConnection")));
+            //services.AddDbContextPool<MySqlDbContext>(options => options.UseMySQL(Configuration.GetConnectionString("MySqlConnection")));
             //集中注册服务
-            foreach (var item in GetClassName("Service"))
+            foreach (var item in GetClassName("CSCBlogWebApi_2_0.Business"))
             {
                 foreach (var typeArray in item.Value)
                 {
