@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CSCBlogWebApi_2_0.Infrastructure\CSCBlogWebApi_2_0.Infrastructure.csproj" />
+    <ProjectReference Include="..\CSCBlogWebApi_2_0.Model\CSCBlogWebApi_2_0.Model.csproj" />
   </ItemGroup>
 
 </Project>

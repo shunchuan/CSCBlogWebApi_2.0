@@ -1,0 +1,9 @@
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Model\bin\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Model.deps.json
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Model\bin\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Model.dll
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Model\bin\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Model.pdb
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Model\obj\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Model.csproj.CoreCompileInputs.cache
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Model\obj\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Model.AssemblyInfoInputs.cache
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Model\obj\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Model.AssemblyInfo.cs
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Model\obj\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Model.dll
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Model\obj\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Model.pdb
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Model\obj\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Model.csprojAssemblyReference.cache

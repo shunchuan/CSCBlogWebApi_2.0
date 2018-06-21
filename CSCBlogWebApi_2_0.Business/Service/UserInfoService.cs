@@ -1,7 +1,8 @@
 ﻿using CSCBlogWebApi_2_0.Business.IService;
 using CSCBlogWebApi_2_0.Domain;
-using CSCBlogWebApi_2_0.Domain.Entity;
+using CSCBlogWebApi_2_0.Domain.IRepository;
 using CSCBlogWebApi_2_0.Domain.Repository;
+using CSCBlogWebApi_2_0.Model.TableModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,16 +11,33 @@ using System.Threading.Tasks;
 
 namespace CSCBlogWebApi_2_0.Business.Service
 {
-    public class UserInfoService: BaseRepository<User_Info>, IUserInfoService
+    //public class UserInfoService: BaseRepository<User_Info>, IUserInfoService
+    public class UserInfoService:IUserInfoService
     {
-        public UserInfoService() : base(DbContextFactory.Create())
+        private readonly IBaseRepository<User_Info> baseRepository;
+        public UserInfoService() 
         {
-
+            baseRepository = new BaseRepository<User_Info>(DbContextFactory.Create());
         }
 
-        public async Task<User_Info> GetUser(string username, string password)
+        public async Task<IQueryable<User_Info>> GetList()
         {
-            return await GetSingle(u => u.Name == username && u.Password == password);
+            return await Task.Run(()=> baseRepository.GetList());
+        }
+
+        public async Task<User_Info> GetUser(string account, string password)
+        {
+            return await baseRepository.GetSingle(u => u.Account == account && u.Password == password);
+        }
+
+        public async Task<User_Info> GetUser(string account)
+        {
+            return await baseRepository.GetSingle(u => u.Account == account);
+        }
+
+        public async Task<bool> AddAsync(User_Info user_Info)
+        {
+            return await Task.Run(() => baseRepository.Add(user_Info) > 0);
         }
     }
 }

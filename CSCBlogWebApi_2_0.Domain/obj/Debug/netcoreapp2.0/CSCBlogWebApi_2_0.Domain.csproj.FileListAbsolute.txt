@@ -12,3 +12,5 @@ E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Domai
 E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Domain\obj\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Domain.csproj.CopyComplete
 E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Domain\obj\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Domain.dll
 E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Domain\obj\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Domain.pdb
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Domain\bin\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Model.dll
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Domain\bin\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Model.pdb

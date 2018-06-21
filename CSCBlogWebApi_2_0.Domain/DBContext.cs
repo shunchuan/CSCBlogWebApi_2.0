@@ -1,4 +1,4 @@
-﻿using CSCBlogWebApi_2_0.Domain.Entity;
+﻿using CSCBlogWebApi_2_0.Model.TableModel;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

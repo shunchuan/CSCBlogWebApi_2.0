@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using CSCBlogWebApi_2_0.Domain.Entity;
+using CSCBlogWebApi_2_0.Model.TableModel;
 
 namespace CSCBlogWebApi_2_0.Domain.DB
 {

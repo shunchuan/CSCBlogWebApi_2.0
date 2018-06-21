@@ -10,3 +10,5 @@ E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Infra
 E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Infrastructure\obj\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Infrastructure.csproj.CopyComplete
 E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Infrastructure\obj\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Infrastructure.dll
 E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Infrastructure\obj\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Infrastructure.pdb
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Infrastructure\bin\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Model.dll
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Infrastructure\bin\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Model.pdb

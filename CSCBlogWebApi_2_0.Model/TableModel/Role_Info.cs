@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CSCBlogWebApi_2_0.Domain.Entity
+namespace CSCBlogWebApi_2_0.Model.TableModel
 {
     public class Role_Info
     {

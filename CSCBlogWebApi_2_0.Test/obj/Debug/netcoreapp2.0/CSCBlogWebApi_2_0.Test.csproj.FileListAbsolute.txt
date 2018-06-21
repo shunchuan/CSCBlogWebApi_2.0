@@ -11,3 +11,4 @@ E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Test\
 E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Test\obj\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Test.AssemblyInfo.cs
 E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Test\obj\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Test.dll
 E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Test\obj\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Test.pdb
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Test\obj\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Test.csprojAssemblyReference.cache
