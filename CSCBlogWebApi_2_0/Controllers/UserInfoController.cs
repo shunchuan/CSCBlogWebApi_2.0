@@ -1,10 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using CSCBlogWebApi_2_0.Business.IService;
-using CSCBlogWebApi_2_0.Business.Service;
 using CSCBlogWebApi_2_0.Infrastructure.Core;
 using CSCBlogWebApi_2_0.Model.TableModel;
 using Microsoft.AspNetCore.Mvc;
+using CSCBlogWebApi_2_0.Business.Interface;
+using CSCBlogWebApi_2_0.Business.Implements;
+using CSCBlogWebApi_2_0.Model.ResponseModel;
+using System.Linq;
+using CSCBlogWebApi_2_0.Extend;
+using System;
 
 namespace CSCBlogWebApi_2_0.Controllers
 {
@@ -12,36 +16,52 @@ namespace CSCBlogWebApi_2_0.Controllers
     [Route("api/[controller]")]
     public class UserInfoController : Controller
     {
-        private readonly IUserInfoService business = new UserInfoService();
+        private readonly IUserInfoBusiness business ;
+
+        public UserInfoController(IUserInfoBusiness _business)
+        {
+            business = _business;
+        }
+
         // GET: api/UserInfo
         [HttpGet]
-        public async Task<IEnumerable<User_Info>> Get()
+        public async Task<IActionResult> Get()
         {
-            return await business.GetList();
+            try
+            {
+                return ModelStateExtend.ToActionResult(await business.GetList());
+            }
+            catch (Exception ex)
+            {
+                var result = new ResultMessage() { Status = "0", Message = ex.Message, Response = ex };
+                return ModelStateExtend.ToActionResult(result);
+            }
         }
 
         [HttpPost("getuser")]
         public async Task<User_Info> GetUserAsync([FromBody]User_Info userInfo)
         {
-            return await business.GetUser(userInfo.Account, userInfo.Password);
+            return await business.GetUserAsync(userInfo);
         }
 
         [HttpPost("add")]
         public async Task<IActionResult> AddAsync([FromBody]User_Info userInfo)
         {
-            if (!ModelState.IsValid)
+            try
             {
-                return BadRequest(ModelState);
+                if (!ModelState.IsValid)
+                {
+                    return ModelStateExtend.ToActionResultFirst(ModelState);
+                    //return BadRequest(ModelState);
+                }
+
+                return ModelStateExtend.ToActionResult(await business.AddAsync(userInfo as User_Info));
             }
-            //var user = await busines.GetUser(model.Account, model.Password);
-            var user = await business.GetUser(userInfo.Account);
-            if (null != user)
+            catch (Exception ex)
             {
-                ModelState.AddModelError("Account", "用户名已存在");
-                return BadRequest(ModelState);
+                var result = new ResultMessage() { Status = "0", Message = ex.Message, Response = ex };
+                return ModelStateExtend.ToActionResult(result);
             }
-            userInfo.Password = Secret.GetMD5(userInfo.Password);
-            return new ObjectResult(business.AddAsync(userInfo));
         }
     }
 }

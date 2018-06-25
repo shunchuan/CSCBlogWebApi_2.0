@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CSCBlogWebApi_2_0.Domain\CSCBlogWebApi_2_0.Domain.csproj" />
-    <ProjectReference Include="..\CSCBlogWebApi_2_0.Service\CSCBlogWebApi_2_0.Service.csproj" />
+    <ProjectReference Include="..\CSCBlogWebApi_2_0.Model\CSCBlogWebApi_2_0.Model.csproj" />
   </ItemGroup>
 
 </Project>

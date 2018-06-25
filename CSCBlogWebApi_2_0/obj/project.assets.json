@@ -5163,7 +5163,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
-          "CSCBlogWebApi_2_0.Domain": "1.0.0"
+          "CSCBlogWebApi_2_0.Domain": "1.0.0",
+          "CSCBlogWebApi_2_0.Service": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CSCBlogWebApi_2_0.Business.dll": {}
@@ -5222,6 +5223,20 @@
         },
         "runtime": {
           "bin/placeholder/CSCBlogWebApi_2_0.Model.dll": {}
+        }
+      },
+      "CSCBlogWebApi_2_0.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "CSCBlogWebApi_2_0.Domain": "1.0.0",
+          "CSCBlogWebApi_2_0.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CSCBlogWebApi_2_0.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CSCBlogWebApi_2_0.Service.dll": {}
         }
       }
     }
@@ -13756,6 +13771,11 @@
       "type": "project",
       "path": "../CSCBlogWebApi_2_0.Model/CSCBlogWebApi_2_0.Model.csproj",
       "msbuildProject": "../CSCBlogWebApi_2_0.Model/CSCBlogWebApi_2_0.Model.csproj"
+    },
+    "CSCBlogWebApi_2_0.Service/1.0.0": {
+      "type": "project",
+      "path": "../CSCBlogWebApi_2_0.Service/CSCBlogWebApi_2_0.Service.csproj",
+      "msbuildProject": "../CSCBlogWebApi_2_0.Service/CSCBlogWebApi_2_0.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {

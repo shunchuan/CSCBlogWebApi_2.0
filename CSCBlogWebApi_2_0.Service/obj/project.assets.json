@@ -2362,20 +2362,6 @@
         "runtime": {
           "bin/placeholder/CSCBlogWebApi_2_0.Model.dll": {}
         }
-      },
-      "CSCBlogWebApi_2_0.Service/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "dependencies": {
-          "CSCBlogWebApi_2_0.Domain": "1.0.0",
-          "CSCBlogWebApi_2_0.Model": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/CSCBlogWebApi_2_0.Service.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CSCBlogWebApi_2_0.Service.dll": {}
-        }
       }
     }
   },
@@ -7525,17 +7511,12 @@
       "type": "project",
       "path": "../CSCBlogWebApi_2_0.Model/CSCBlogWebApi_2_0.Model.csproj",
       "msbuildProject": "../CSCBlogWebApi_2_0.Model/CSCBlogWebApi_2_0.Model.csproj"
-    },
-    "CSCBlogWebApi_2_0.Service/1.0.0": {
-      "type": "project",
-      "path": "../CSCBlogWebApi_2_0.Service/CSCBlogWebApi_2_0.Service.csproj",
-      "msbuildProject": "../CSCBlogWebApi_2_0.Service/CSCBlogWebApi_2_0.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "CSCBlogWebApi_2_0.Domain >= 1.0.0",
-      "CSCBlogWebApi_2_0.Service >= 1.0.0",
+      "CSCBlogWebApi_2_0.Model >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -7546,11 +7527,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ProgramLearning\\C#Program\\.NET Core\\CSCBlogWebApi_2.0\\CSCBlogWebApi_2_0.Business\\CSCBlogWebApi_2_0.Business.csproj",
-      "projectName": "CSCBlogWebApi_2_0.Business",
-      "projectPath": "E:\\ProgramLearning\\C#Program\\.NET Core\\CSCBlogWebApi_2.0\\CSCBlogWebApi_2_0.Business\\CSCBlogWebApi_2_0.Business.csproj",
+      "projectUniqueName": "E:\\ProgramLearning\\C#Program\\.NET Core\\CSCBlogWebApi_2.0\\CSCBlogWebApi_2_0.Service\\CSCBlogWebApi_2_0.Service.csproj",
+      "projectName": "CSCBlogWebApi_2_0.Service",
+      "projectPath": "E:\\ProgramLearning\\C#Program\\.NET Core\\CSCBlogWebApi_2.0\\CSCBlogWebApi_2_0.Service\\CSCBlogWebApi_2_0.Service.csproj",
       "packagesPath": "G:\\Users\\a1289\\.nuget\\packages\\",
-      "outputPath": "E:\\ProgramLearning\\C#Program\\.NET Core\\CSCBlogWebApi_2.0\\CSCBlogWebApi_2_0.Business\\obj\\",
+      "outputPath": "E:\\ProgramLearning\\C#Program\\.NET Core\\CSCBlogWebApi_2.0\\CSCBlogWebApi_2_0.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "G:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7572,8 +7553,8 @@
             "E:\\ProgramLearning\\C#Program\\.NET Core\\CSCBlogWebApi_2.0\\CSCBlogWebApi_2_0.Domain\\CSCBlogWebApi_2_0.Domain.csproj": {
               "projectPath": "E:\\ProgramLearning\\C#Program\\.NET Core\\CSCBlogWebApi_2.0\\CSCBlogWebApi_2_0.Domain\\CSCBlogWebApi_2_0.Domain.csproj"
             },
-            "E:\\ProgramLearning\\C#Program\\.NET Core\\CSCBlogWebApi_2.0\\CSCBlogWebApi_2_0.Service\\CSCBlogWebApi_2_0.Service.csproj": {
-              "projectPath": "E:\\ProgramLearning\\C#Program\\.NET Core\\CSCBlogWebApi_2.0\\CSCBlogWebApi_2_0.Service\\CSCBlogWebApi_2_0.Service.csproj"
+            "E:\\ProgramLearning\\C#Program\\.NET Core\\CSCBlogWebApi_2.0\\CSCBlogWebApi_2_0.Model\\CSCBlogWebApi_2_0.Model.csproj": {
+              "projectPath": "E:\\ProgramLearning\\C#Program\\.NET Core\\CSCBlogWebApi_2.0\\CSCBlogWebApi_2_0.Model\\CSCBlogWebApi_2_0.Model.csproj"
             }
           }
         }

@@ -6,3 +6,4 @@ E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Enum\
 E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Enum\obj\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Enum.AssemblyInfo.cs
 E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Enum\obj\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Enum.dll
 E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Enum\obj\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Enum.pdb
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Enum\obj\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Enum.csprojAssemblyReference.cache

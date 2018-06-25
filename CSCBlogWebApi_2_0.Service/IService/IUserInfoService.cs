@@ -6,11 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSCBlogWebApi_2_0.Business.IService
+namespace CSCBlogWebApi_2_0.Service.IService
 {
-    public interface IUserInfoService
+    public interface IUserInfoService: IBaseRepository<User_Info>
     {
-        Task<IQueryable<User_Info>> GetList();
+        //Task<IQueryable<User_Info>> GetList();
 
         Task<User_Info> GetUser(string account, string password);
 

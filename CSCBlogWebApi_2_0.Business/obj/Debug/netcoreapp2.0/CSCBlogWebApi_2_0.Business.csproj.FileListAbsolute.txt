@@ -16,3 +16,5 @@ E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Busin
 E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Business\obj\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Business.pdb
 E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Business\bin\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Model.dll
 E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Business\bin\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Model.pdb
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Business\bin\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Service.dll
+E:\ProgramLearning\C#Program\.NET Core\CSCBlogWebApi_2.0\CSCBlogWebApi_2_0.Business\bin\Debug\netcoreapp2.0\CSCBlogWebApi_2_0.Service.pdb

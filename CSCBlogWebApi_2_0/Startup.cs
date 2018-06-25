@@ -68,7 +68,16 @@ namespace CSCBlogWebApi_2_0
                     };
                 });
 
-
+            services.AddCors(options =>
+            {
+                options.AddPolicy("any", builder =>
+                {
+                    builder.AllowAnyOrigin() //允许任何来源的主机访问
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials();//指定处理cookie
+                });
+            });
             services.AddMvc();
         }
 
